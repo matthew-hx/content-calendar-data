@@ -1,0 +1,1 @@
+json(concat('{"timestamp":"', utcNow('yyyy-MM-ddTHH:mm:ssZ'), '","entries":', string(outputs('Select')), '}'))
